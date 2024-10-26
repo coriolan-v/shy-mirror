@@ -1,0 +1,284 @@
+#include "Adafruit_VL53L0X.h"
+
+#define NUMBER_OF_SENSORS 6
+
+// address we will assign if dual sensor is present
+#define LOX1_ADDRESS 0x30
+#define LOX2_ADDRESS 0x31
+#define LOX3_ADDRESS 0x32
+#define LOX4_ADDRESS 0x33
+#define LOX5_ADDRESS 0x34
+#define LOX6_ADDRESS 0x35
+#define LOX7_ADDRESS 0x36
+#define LOX8_ADDRESS 0x37
+int sensorAddresses[] = { LOX1_ADDRESS, LOX2_ADDRESS, LOX3_ADDRESS, LOX4_ADDRESS, LOX5_ADDRESS, LOX6_ADDRESS, LOX7_ADDRESS, LOX8_ADDRESS };
+
+int sensor1, sensor2;
+
+int sensorRanges[NUMBER_OF_SENSORS];
+
+
+
+// set the pins to shutdown
+#define SHT_LOX1 1
+#define SHT_LOX2 2
+#define SHT_LOX3 3
+#define SHT_LOX4 4
+#define SHT_LOX5 5
+#define SHT_LOX6 6
+#define SHT_LOX7 7
+#define SHT_LOX8 8
+int pins_SHT[] = { SHT_LOX1, SHT_LOX2, SHT_LOX3, SHT_LOX4, SHT_LOX5, SHT_LOX6, SHT_LOX7, SHT_LOX8 };
+
+// objects for the vl53l0x
+Adafruit_VL53L0X lox1 = Adafruit_VL53L0X();
+Adafruit_VL53L0X lox2 = Adafruit_VL53L0X();
+Adafruit_VL53L0X lox3 = Adafruit_VL53L0X();
+Adafruit_VL53L0X lox4 = Adafruit_VL53L0X();
+Adafruit_VL53L0X lox5 = Adafruit_VL53L0X();
+Adafruit_VL53L0X lox6 = Adafruit_VL53L0X();
+Adafruit_VL53L0X lox7 = Adafruit_VL53L0X();
+Adafruit_VL53L0X lox8 = Adafruit_VL53L0X();
+
+Adafruit_VL53L0X sensors[8];
+
+// this holds the measurement
+VL53L0X_RangingMeasurementData_t measure1;
+VL53L0X_RangingMeasurementData_t measure2;
+
+VL53L0X_RangingMeasurementData_t measures[NUMBER_OF_SENSORS];
+
+/*
+    Reset all sensors by setting all of their XSHUT pins low for delay(10), then set all XSHUT high to bring out of reset
+    Keep sensor #1 awake by keeping XSHUT pin high
+    Put all other sensors into shutdown by pulling XSHUT pins low
+    Initialize sensor #1 with lox.begin(new_i2c_address) Pick any number but 0x29 and it must be under 0x7F. Going with 0x30 to 0x3F is probably OK.
+    Keep sensor #1 awake, and now bring sensor #2 out of reset by setting its XSHUT pin high.
+    Initialize sensor #2 with lox.begin(new_i2c_address) Pick any number but 0x29 and whatever you set the first sensor to
+ */
+void setID() {
+
+  for (int i = 0; i < NUMBER_OF_SENSORS; i++) {
+    sensors[i] = Adafruit_VL53L0X();
+  }
+
+  // all reset
+  for (int i = 0; i < NUMBER_OF_SENSORS; i++) {
+    digitalWrite(pins_SHT[i], LOW);
+  }
+  delay(10);
+
+  // digitalWrite(SHT_LOX1, LOW);
+  // digitalWrite(SHT_LOX2, LOW);
+  // delay(10);
+  // all unreset
+  for (int i = 0; i < NUMBER_OF_SENSORS; i++) {
+    digitalWrite(pins_SHT[i], HIGH);
+  }
+  delay(10);
+
+  // digitalWrite(SHT_LOX1, HIGH);
+  // digitalWrite(SHT_LOX2, HIGH);
+  // delay(10);
+
+  for (int i = 0; i < NUMBER_OF_SENSORS; i++) {
+    digitalWrite(pins_SHT[i], HIGH);
+  }
+
+  // activating LOX1 and reseting LOX2
+  digitalWrite(SHT_LOX1, HIGH);
+  digitalWrite(SHT_LOX2, LOW);
+  digitalWrite(SHT_LOX3, LOW);
+  digitalWrite(SHT_LOX4, LOW);
+  digitalWrite(SHT_LOX5, LOW);
+  digitalWrite(SHT_LOX6, LOW);
+  digitalWrite(SHT_LOX7, LOW);
+  digitalWrite(SHT_LOX8, LOW);
+  // initing LOX1
+  if (!sensors[0].begin(LOX1_ADDRESS)) {
+    Serial.println(F("Failed to boot first VL53L0X"));
+    while (1)
+      ;
+  } else {
+    Serial.println("Init OK sensor 1");
+  }
+  delay(10);
+
+  digitalWrite(SHT_LOX2, HIGH);
+  digitalWrite(SHT_LOX3, LOW);
+  digitalWrite(SHT_LOX4, LOW);
+  digitalWrite(SHT_LOX5, LOW);
+  digitalWrite(SHT_LOX6, LOW);
+  digitalWrite(SHT_LOX7, LOW);
+  digitalWrite(SHT_LOX8, LOW);
+  // initing LOX1
+  if (!sensors[1].begin(LOX2_ADDRESS)) {
+    Serial.println(F("Failed to boot VL53L0X 2"));
+    while (1)
+      ;
+  } else {
+    Serial.println("Init OK sensor 2");
+  }
+  delay(10);
+
+  digitalWrite(SHT_LOX3, HIGH);
+  digitalWrite(SHT_LOX4, LOW);
+  digitalWrite(SHT_LOX5, LOW);
+  digitalWrite(SHT_LOX6, LOW);
+  digitalWrite(SHT_LOX7, LOW);
+  digitalWrite(SHT_LOX8, LOW);
+  // initing LOX1
+  if (!sensors[2].begin(LOX3_ADDRESS)) {
+    Serial.println(F("Failed to boot VL53L0X 3"));
+    while (1)
+      ;
+  } else {
+    Serial.println("Init OK sensor 3");
+  }
+  delay(10);
+
+  digitalWrite(SHT_LOX4, HIGH);
+  digitalWrite(SHT_LOX5, LOW);
+  digitalWrite(SHT_LOX6, LOW);
+  digitalWrite(SHT_LOX7, LOW);
+  digitalWrite(SHT_LOX8, LOW);
+  // initing LOX1
+  if (!sensors[3].begin(LOX4_ADDRESS)) {
+    Serial.println(F("Failed to boot VL53L0X 4"));
+    while (1)
+      ;
+  } else {
+    Serial.println("Init OK sensor 4");
+  }
+  delay(10);
+
+  digitalWrite(SHT_LOX5, HIGH);
+  digitalWrite(SHT_LOX6, LOW);
+  digitalWrite(SHT_LOX7, LOW);
+  digitalWrite(SHT_LOX8, LOW);
+  // initing LOX1
+  if (!sensors[4].begin(LOX5_ADDRESS)) {
+    Serial.println(F("Failed to boot VL53L0X 5"));
+    while (1)
+      ;
+  } else {
+    Serial.println("Init OK sensor 5");
+  }
+  delay(10);
+
+  digitalWrite(SHT_LOX6, HIGH);
+  digitalWrite(SHT_LOX7, LOW);
+  digitalWrite(SHT_LOX8, LOW);
+  // initing LOX1
+  if (!sensors[5].begin(LOX6_ADDRESS)) {
+    Serial.println(F("Failed to boot VL53L0X 6"));
+    while (1)
+      ;
+  } else {
+    Serial.println("Init OK sensor 6");
+  }
+  delay(10);
+
+  digitalWrite(SHT_LOX7, HIGH);
+  digitalWrite(SHT_LOX8, LOW);
+  // initing LOX1
+  if (!sensors[6].begin(LOX7_ADDRESS)) {
+    Serial.println(F("Failed to boot VL53L0X 7"));
+    while (1)
+      ;
+  } else {
+    Serial.println("Init OK sensor 7");
+  }
+  delay(10);
+
+  digitalWrite(SHT_LOX8, HIGH);
+  // initing LOX1
+  if (!sensors[7].begin(LOX8_ADDRESS)) {
+    Serial.println(F("Failed to boot VL53L0X 8"));
+    while (1)
+      ;
+  } else {
+    Serial.println("Init OK sensor 8");
+  }
+  delay(10);
+}
+
+void readSensors() {
+  for (int i = 0; i < NUMBER_OF_SENSORS; i++) {
+    sensors[i].rangingTest(&measures[i], false);
+  }
+
+  for (int i = 0; i < NUMBER_OF_SENSORS; i++) {
+    Serial.print(i);
+    Serial.print(": ");
+    if (measures[i].RangeStatus != 4) {  // if not out of range
+      sensorRanges[i] = measures[i].RangeMilliMeter;
+      Serial.print(sensorRanges[i]);
+      Serial.println("mm");
+    }
+  }
+}
+
+void read_dual_sensors() {
+
+  lox1.rangingTest(&measure1, false);  // pass in 'true' to get debug data printout!
+  lox2.rangingTest(&measure2, false);  // pass in 'true' to get debug data printout!
+
+  // print sensor one reading
+  Serial.print("1: ");
+  if (measure1.RangeStatus != 4) {  // if not out of range
+    sensor1 = measure1.RangeMilliMeter;
+    Serial.print(sensor1);
+    Serial.print("mm");
+  } else {
+    Serial.print("Out of range");
+  }
+
+  Serial.print(" ");
+
+  // print sensor two reading
+  Serial.print("2: ");
+  if (measure2.RangeStatus != 4) {
+    sensor2 = measure2.RangeMilliMeter;
+    Serial.print(sensor2);
+    Serial.print("mm");
+  } else {
+    Serial.print("Out of range");
+  }
+
+  Serial.println();
+}
+
+void initSensors() {
+  for (int i = 0; i < NUMBER_OF_SENSORS; i++) {
+    pinMode(pins_SHT[i], OUTPUT);
+  }
+
+  Serial.println("Shutdown pins inited...");
+
+  for (int i = 0; i < NUMBER_OF_SENSORS; i++) {
+    digitalWrite(pins_SHT[i], LOW);
+  }
+
+  Serial.println("All in reset mode...(pins are low)");
+
+
+  Serial.println("Starting...");
+
+  setID();
+
+
+  // pinMode(SHT_LOX1, OUTPUT);
+  // pinMode(SHT_LOX2, OUTPUT);
+
+  // Serial.println("Shutdown pins inited...");
+
+  // digitalWrite(SHT_LOX1, LOW);
+  // digitalWrite(SHT_LOX2, LOW);
+
+  //   Serial.println("Both in reset mode...(pins are low)");
+
+
+  //   Serial.println("Starting...");
+  //   setID();
+}
