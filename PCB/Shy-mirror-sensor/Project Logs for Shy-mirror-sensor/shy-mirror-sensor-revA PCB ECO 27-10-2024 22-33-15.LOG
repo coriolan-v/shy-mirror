@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=VIN Pin=J?-1
+Removed Pin From Net: NetName=GND Pin=J?-2
+Removed Pin From Net: NetName=SDA Pin=J?-3
+Removed Pin From Net: NetName=SCL Pin=J?-4
+Removed Pin From Net: NetName=XSHT Pin=J?-6
+Change Component Footprint: Designator=J? Old Footprint=BM06BSRSSTBLFSN New Footprint=SM06B-SRSS-TB
+Change Component Comment : Designator=J? Old Comment=BM06B-SRSS-TB_LF__SN_ New Comment=SM06B-SRSS-TB__LF__SN_
+Change component parameters: Designator = "J?" ("J?"); Footprint = "BM06BSRSSTBLFSN"; UniqueID = "\JBUSBQWM" ("\JBUSBQWM")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://uk.rs-online.com/web/p/products/5468827"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "JST (JAPAN SOLDERLESS TERMINALS)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SM06B-SRSS-TB (LF)(SN)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Room: Name=shy-mirror-sensor-rev

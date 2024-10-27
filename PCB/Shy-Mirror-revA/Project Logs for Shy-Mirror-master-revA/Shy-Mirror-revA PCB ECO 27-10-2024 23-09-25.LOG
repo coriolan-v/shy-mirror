@@ -1,0 +1,8 @@
+Added Pin To Net: NetName=SCL Pin=IC?-11
+Added Pin To Net: NetName=SDA Pin=IC?-12
+Added Pin To Net: NetName=SCL Pin=R?-2
+Added Pin To Net: NetName=SDA Pin=R?-2
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component IC? 3403
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J8 SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component R? CPF0402B20R5E1
+Added Room: Name=Shy-Mirror-revA

@@ -1,0 +1,38 @@
+Added Component: Designator=J?(SM03BPASSTBTLFSN)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "SM03B-PASS-TBT(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/sm03b-pass-tbt-lf-sn/jst-manufacturing?region=europe"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.jst-mfg.com/product/pdf/eng/ePA-F.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "5.7mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "JST (JAPAN SOLDERLESS TERMINALS)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SM03B-PASS-TBT(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=SDA Pin=IC?-4
+Added Pin To Net: NetName=3V3 Pin=J?-1
+Added Pin To Net: NetName=VIN Pin=J?-1
+Added Pin To Net: NetName=VIN Pin=J?-1
+Added Pin To Net: NetName=VIN Pin=J?-1
+Added Pin To Net: NetName=VIN Pin=J?-1
+Added Pin To Net: NetName=VIN Pin=J?-1
+Added Pin To Net: NetName=VIN Pin=J?-1
+Added Pin To Net: NetName=HALL Pin=J?-2
+Added Pin To Net: NetName=GND Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component IC? 3403
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? SM03B-PASS-TBT_LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component R? CPF0402B20R5E1
+Added Room: Name=Shy-Mirror-revA

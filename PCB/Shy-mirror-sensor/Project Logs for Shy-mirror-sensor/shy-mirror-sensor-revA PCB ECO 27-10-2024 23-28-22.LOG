@@ -1,0 +1,5 @@
+Added Pin To Net: NetName=VIN Pin=J?-1
+Added Pin To Net: NetName=GND Pin=J?-2
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SCL Pin=J?-4
+Added Pin To Net: NetName=XSHT Pin=J?-6

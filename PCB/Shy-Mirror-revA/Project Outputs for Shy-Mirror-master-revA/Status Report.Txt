@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Shy-Mirror-master-revA.PrjPcb]
+   Generated File[Shy-Mirror-revA.TXT]
+   Generated File[Shy-Mirror-revA.LDP]
+   Generated File[Shy-Mirror-revA.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 23:26:44 On 27/10/2024

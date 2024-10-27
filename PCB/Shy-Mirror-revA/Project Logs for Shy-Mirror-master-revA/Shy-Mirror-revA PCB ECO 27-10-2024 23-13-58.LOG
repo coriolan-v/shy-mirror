@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=HALL Pin=IC?-16
+Added Pin To Net: NetName=GND Pin=IC?-13
+Added Pin To Net: NetName=HALL Pin=IC?-14
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component IC? 3403
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component R? CPF0402B20R5E1

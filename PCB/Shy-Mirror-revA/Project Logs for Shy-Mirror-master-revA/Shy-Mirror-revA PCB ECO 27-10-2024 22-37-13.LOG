@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=XSHT_7 Pin=J?-6
+Added Pin To Net: NetName=VIN Pin=J?-1
+Added Pin To Net: NetName=VIN Pin=J?-1
+Added Pin To Net: NetName=VIN Pin=J?-1
+Added Pin To Net: NetName=VIN Pin=J?-1
+Added Pin To Net: NetName=VIN Pin=J?-1
+Added Pin To Net: NetName=VIN Pin=J?-1
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=XSHT_8 Pin=J?-6
+Added Net: Name=XSHT_8
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component R? CPF0402B20R5E1
+Added Room: Name=Shy-Mirror-revA

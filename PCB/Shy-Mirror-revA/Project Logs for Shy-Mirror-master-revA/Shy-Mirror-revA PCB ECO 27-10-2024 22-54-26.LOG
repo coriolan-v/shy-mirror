@@ -1,0 +1,28 @@
+Added Pin To Net: NetName=SDA Pin=IC?-4
+Added Pin To Net: NetName=3V3 Pin=J?-1
+Added Pin To Net: NetName=3V3 Pin=J?-1
+Added Pin To Net: NetName=3V3 Pin=J?-1
+Added Pin To Net: NetName=3V3 Pin=J?-1
+Added Pin To Net: NetName=3V3 Pin=J?-1
+Added Pin To Net: NetName=3V3 Pin=J?-1
+Added Pin To Net: NetName=3V3 Pin=J?-1
+Added Pin To Net: NetName=3V3 Pin=J?-1
+Added Pin To Net: NetName=GND Pin=J?-2
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component IC? 3403
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? SM03B-SRSS-TB_LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component R? CPF0402B20R5E1

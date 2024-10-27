@@ -1,0 +1,123 @@
+Change Component Footprint: Designator=J? Old Footprint=SM06B-SRSS-TB New Footprint=BM06BSRSSTBLFSN
+Change Component Comment : Designator=J? Old Comment=SM06B-SRSS-TB__LF__SN_ New Comment=BM06B-SRSS-TB_LF__SN_
+Change component parameters: Designator = "J?" ("J?"); Footprint = "SM06B-SRSS-TB"; UniqueID = "\ZVFSIAZS" ("\ZVFSIAZS")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "BM06B-SRSS-TB(LF)(SN)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/bm06b-srss-tb-lf-sn/jst-manufacturing?region=europe"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://www.jst-mfg.com/product/pdf/eng/eSR.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "4.25mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "JST (JAPAN SOLDERLESS TERMINALS)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "BM06B-SRSS-TB(LF)(SN)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J?(BM06BSRSSTBLFSN)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "BM06B-SRSS-TB(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/bm06b-srss-tb-lf-sn/jst-manufacturing?region=europe"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.jst-mfg.com/product/pdf/eng/eSR.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "4.25mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "JST (JAPAN SOLDERLESS TERMINALS)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "BM06B-SRSS-TB(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J?(BM06BSRSSTBLFSN)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "BM06B-SRSS-TB(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/bm06b-srss-tb-lf-sn/jst-manufacturing?region=europe"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.jst-mfg.com/product/pdf/eng/eSR.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "4.25mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "JST (JAPAN SOLDERLESS TERMINALS)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "BM06B-SRSS-TB(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J?(BM06BSRSSTBLFSN)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "BM06B-SRSS-TB(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/bm06b-srss-tb-lf-sn/jst-manufacturing?region=europe"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.jst-mfg.com/product/pdf/eng/eSR.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "4.25mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "JST (JAPAN SOLDERLESS TERMINALS)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "BM06B-SRSS-TB(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J?(BM06BSRSSTBLFSN)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "BM06B-SRSS-TB(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/bm06b-srss-tb-lf-sn/jst-manufacturing?region=europe"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.jst-mfg.com/product/pdf/eng/eSR.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "4.25mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "JST (JAPAN SOLDERLESS TERMINALS)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "BM06B-SRSS-TB(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J?(BM06BSRSSTBLFSN)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "BM06B-SRSS-TB(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/bm06b-srss-tb-lf-sn/jst-manufacturing?region=europe"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.jst-mfg.com/product/pdf/eng/eSR.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "4.25mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "JST (JAPAN SOLDERLESS TERMINALS)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "BM06B-SRSS-TB(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J?(BM06BSRSSTBLFSN)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "BM06B-SRSS-TB(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/bm06b-srss-tb-lf-sn/jst-manufacturing?region=europe"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.jst-mfg.com/product/pdf/eng/eSR.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "4.25mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "JST (JAPAN SOLDERLESS TERMINALS)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "BM06B-SRSS-TB(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J?-2
+Added Pin To Net: NetName=GND Pin=J?-2
+Added Pin To Net: NetName=GND Pin=J?-2
+Added Pin To Net: NetName=GND Pin=J?-2
+Added Pin To Net: NetName=GND Pin=J?-2
+Added Pin To Net: NetName=GND Pin=J?-2
+Added Pin To Net: NetName=GND Pin=J?-2
+Added Pin To Net: NetName=GND Pin=J?-2
+Added Pin To Net: NetName=SCL Pin=J?-4
+Added Pin To Net: NetName=SCL Pin=J?-4
+Added Pin To Net: NetName=SCL Pin=J?-4
+Added Pin To Net: NetName=SCL Pin=J?-4
+Added Pin To Net: NetName=SCL Pin=J?-4
+Added Pin To Net: NetName=SCL Pin=J?-4
+Added Pin To Net: NetName=SCL Pin=J?-4
+Added Pin To Net: NetName=SCL Pin=J?-4
+Added Net: Name=SCL
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Net: Name=SDA
+Added Pin To Net: NetName=VIN Pin=J?-1
+Added Pin To Net: NetName=VIN Pin=J?-1
+Added Pin To Net: NetName=VIN Pin=J?-1
+Added Pin To Net: NetName=VIN Pin=J?-1
+Added Pin To Net: NetName=VIN Pin=J?-1
+Added Pin To Net: NetName=VIN Pin=J?-1
+Added Pin To Net: NetName=VIN Pin=J?-1
+Added Net: Name=VIN
+Added Pin To Net: NetName=XSHT_1 Pin=J?-6
+Added Pin To Net: NetName=XSHT_1 Pin=J?-6
+Added Net: Name=XSHT_1
+Added Pin To Net: NetName=XSHT_2 Pin=J?-6
+Added Net: Name=XSHT_2
+Added Pin To Net: NetName=XSHT_4 Pin=J?-6
+Added Net: Name=XSHT_4
+Added Pin To Net: NetName=XSHT_5 Pin=J?-6
+Added Net: Name=XSHT_5
+Added Pin To Net: NetName=XSHT_6 Pin=J?-6
+Added Net: Name=XSHT_6
+Added Pin To Net: NetName=XSHT_7 Pin=J?-6
+Added Net: Name=XSHT_7
+Added Pin To Net: NetName=XSHT_8 Pin=J?-6
+Added Net: Name=XSHT_8
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? BM06B-SRSS-TB_LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? BM06B-SRSS-TB_LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? BM06B-SRSS-TB_LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? BM06B-SRSS-TB_LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? BM06B-SRSS-TB_LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? BM06B-SRSS-TB_LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? BM06B-SRSS-TB_LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component R? CPF0402B20R5E1
+Added Room: Name=Shy-Mirror-revA

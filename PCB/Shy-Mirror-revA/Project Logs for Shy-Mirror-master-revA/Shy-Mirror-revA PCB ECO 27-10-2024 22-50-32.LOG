@@ -1,0 +1,37 @@
+Change Component Footprint: Designator=J? Old Footprint=SM03BPASSTBTLFSN New Footprint=SM03BSRSSTBLFSN
+Change Component Comment : Designator=J? Old Comment=SM03B-PASS-TBT_LF__SN_ New Comment=SM03B-SRSS-TB_LF__SN_
+Change component parameters: Designator = "J?" ("J?"); Footprint = "SM03BPASSTBTLFSN"; UniqueID = "\OPDAZJZY" ("\OPDAZJZY")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "SM03B-SRSS-TB(LF)(SN)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/sm03b-srss-tb-lf-sn/jst-manufacturing?region=europe"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://www.jst-mfg.com/product/pdf/eng/eSR.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "2.9mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "JST (JAPAN SOLDERLESS TERMINALS)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SM03B-SRSS-TB(LF)(SN)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "306-SM03BSRSSTBLFSNP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/JST-Commercial/SM03B-SRSS-TBLFSN?qs=cdbOS8ANM9DY%2Fg%2FPQv5Kng%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=SDA Pin=IC?-4
+Added Pin To Net: NetName=VIN Pin=J?-1
+Added Pin To Net: NetName=VIN Pin=J?-1
+Added Pin To Net: NetName=VIN Pin=J?-1
+Added Pin To Net: NetName=VIN Pin=J?-1
+Added Pin To Net: NetName=VIN Pin=J?-1
+Added Pin To Net: NetName=VIN Pin=J?-1
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component IC? 3403
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? SM03B-SRSS-TB_LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component R? CPF0402B20R5E1
+Added Room: Name=Shy-Mirror-revA

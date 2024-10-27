@@ -1,0 +1,25 @@
+Removed Pin From Net: NetName=XSHT_7 Pin=IC?-18
+Removed Pin From Net: NetName=XSHT_7 Pin=J?-6
+Change Component Designator: OldDesignator=J? NewDesignator=J1
+Change Component Designator: OldDesignator=J? NewDesignator=J2
+Change Component Designator: OldDesignator=J? NewDesignator=J3
+Change Component Designator: OldDesignator=J? NewDesignator=J4
+Change Component Designator: OldDesignator=J? NewDesignator=J5
+Change Component Designator: OldDesignator=J? NewDesignator=J6
+Change Component Designator: OldDesignator=J? NewDesignator=J7
+Change Component Designator: OldDesignator=J? NewDesignator=J8
+Change Component Designator: OldDesignator=J? NewDesignator=J9
+Change Net Name : Old Net Name=XSHT_7 New Net Name=SDA
+Added Pin To Net: NetName=XSHT_7 Pin=IC?-18
+Added Pin To Net: NetName=XSHT_7 Pin=J7-6
+Added Net: Name=XSHT_7
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component IC? 3403
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J1 SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J2 SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J3 SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J4 SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J5 SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J6 SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J7 SM06B-SRSS-TB__LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J9 SM03B-SRSS-TB_LF__SN_
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component R? CPF0402B20R5E1
