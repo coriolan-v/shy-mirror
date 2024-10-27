@@ -26,7 +26,7 @@ int sensorRanges[NUMBER_OF_SENSORS];
 // #define SHT_LOX6 6
 // #define SHT_LOX7 7
 // #define SHT_LOX8 8
-int pins_SHT[NUMBER_OF_SENSORS] = { 1, 2, 3, 4, 5, 6, 7, 8 };
+int pins_SHT[NUMBER_OF_SENSORS] = { A1, A2, A3, A4, A5, SCK, MISO, MOSI };
 
 // objects for the vl53l0x
 // Adafruit_VL53L0X lox1 = Adafruit_VL53L0X();
