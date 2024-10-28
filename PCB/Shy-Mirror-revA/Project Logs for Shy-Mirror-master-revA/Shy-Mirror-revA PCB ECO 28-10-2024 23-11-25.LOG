@@ -1,0 +1,17 @@
+Added Component: Designator=PS?(7805SRC)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "7805SR-C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/7805sr-c/murata-power-solutions?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://componentsearchengine.com/Datasheets/1/7805SR-C.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "19.1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "7805SR-C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "580-7805SR-C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/7805SR-C?qs=35WhQNrE6p3r8osawIMOlg%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=24V Pin=PS?-1
+Added Pin To Net: NetName=GND Pin=PS?-2
+Added Pin To Net: NetName=+5 Pin=PS?-3
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component IC? 3403
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component P? 61300811121
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component PS? 7805SR-C
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component R? CPF0402B20R5E1
+Added Room: Name=Shy-Mirror-revA

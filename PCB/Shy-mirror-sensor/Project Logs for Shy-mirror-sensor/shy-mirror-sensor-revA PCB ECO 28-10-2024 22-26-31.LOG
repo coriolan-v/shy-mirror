@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=VIN Pin=P?-1
+Removed Pin From Net: NetName=GND Pin=P?-2
+Removed Pin From Net: NetName=SDA Pin=P?-3
+Removed Pin From Net: NetName=SCL Pin=P?-4
+Removed Pin From Net: NetName=XSHT Pin=P?-6
+Removed Member From Class: ClassName=shy-mirror-sensor-rev Member=P?
+Added Pin To Net: NetName=VIN Pin=J?-1
+Added Pin To Net: NetName=GND Pin=J?-2
+Added Pin To Net: NetName=SDA Pin=J?-3
+Added Pin To Net: NetName=SCL Pin=J?-4
+Added Pin To Net: NetName=XSHT Pin=J?-6
+Added Member To Class: ClassName=shy-mirror-sensor-rev Member=Component J? 61300611821

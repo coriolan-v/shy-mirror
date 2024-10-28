@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: shy-mirror-sensor-revA.PcbDoc   27/10/2024  23:32:26
+NCDrill File Report For: shy-mirror-sensor-revA.PcbDoc   28/10/2024  22:34:30
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -7,9 +7,8 @@ ASCII RoundHoles File : shy-mirror-sensor-revA.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      12mil (0.305mm)                                           Round             2         PTH        0.14inch (3.64mm)
-T2      35mil (0.9mm)                                             Round             6         PTH        0.39inch (10.00mm)
+T1      40mil (1.02mm)                                            Round             6         PTH        0.50inch (12.70mm)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              8
+Totals                                                                              6
 
 Total Processing Time (hh:mm:ss) : 00:00:00

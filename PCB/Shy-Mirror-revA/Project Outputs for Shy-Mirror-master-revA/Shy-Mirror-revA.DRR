@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: Shy-Mirror-revA.PcbDoc   27/10/2024  23:26:43
+NCDrill File Report For: Shy-Mirror-revA.PcbDoc   28/10/2024  23:32:00
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -8,11 +8,13 @@ ASCII RoundHoles File : Shy-Mirror-revA.TXT
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
 T1      10mil (0.254mm)                                           Round             8         PTH        4.14inch (105.24mm)
-T2      12mil (0.305mm)                                           Round             24        PTH        7.52inch (191.05mm)
-T3      44mil (1.11mm)                                            Round             28        PTH        3.40inch (86.36mm)
-T4      100mil (2.54mm)                                           Round             4         PTH        3.20inch (81.28mm)
-T5      126mil (3.2mm)                                            Round             4         PTH        4.22inch (107.20mm)
+T2      12mil (0.305mm)                                           Round             36        PTH        9.11inch (231.49mm)
+T3      43mil (1.1mm)                                             Round             16        PTH        2.44inch (62.10mm)
+T4      44mil (1.11mm)                                            Round             31        PTH        5.36inch (136.10mm)
+T5      47mil (1.2mm)                                             Round             2         PTH        0.20inch (5.00mm)
+T6      100mil (2.54mm)                                           Round             4         PTH        3.20inch (81.28mm)
+T7      126mil (3.2mm)                                            Round             4         PTH        5.15inch (130.86mm)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              68
+Totals                                                                              101
 
-Total Processing Time (hh:mm:ss) : 00:00:01
+Total Processing Time (hh:mm:ss) : 00:00:00

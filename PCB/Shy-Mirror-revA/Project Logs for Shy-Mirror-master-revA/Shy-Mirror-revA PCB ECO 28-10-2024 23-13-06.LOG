@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=3V3 Pin=J?-2
+Removed Pin From Net: NetName=3V3 Pin=P?-1
+Removed Pin From Net: NetName=3V3 Pin=PS?-1
+Added Pin To Net: NetName=24V Pin=J?-2
+Added Pin To Net: NetName=24V Pin=P?-1
+Added Pin To Net: NetName=24V Pin=PS?-1
+Added Net: Name=24V
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component IC? 3403
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component P? 61300811121
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component R? CPF0402B20R5E1

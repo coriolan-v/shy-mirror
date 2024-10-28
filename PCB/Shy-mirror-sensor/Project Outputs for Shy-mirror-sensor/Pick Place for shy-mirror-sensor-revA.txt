@@ -1,0 +1,15 @@
+Altium Designer Pick and Place Locations
+H:\My Drive\My PROJECTS\VIDEO ART & INSTALLATIONS\Decom 2024\PCB\Shy-mirror-sensor\Project Outputs for Shy-mirror-sensor\Pick Place for shy-mirror-sensor-revA.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       28/10/24
+Time:       22:34
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+Designator Comment                Layer       Footprint     Center-X(mil) Center-Y(mil) Rotation Description                                                    
+J?         61300611821            TopLayer    61300611821   1165.000      1320.000      90       "WR-PHD Socket Header, THT, Vertical, pitch 2.54mm, 1 Row, 6P" 
+J?         SM06B-SRSS-TB__LF__SN_ BottomLayer SM06B-SRSS-TB 1360.532      1320.000      270      Connector                                                      

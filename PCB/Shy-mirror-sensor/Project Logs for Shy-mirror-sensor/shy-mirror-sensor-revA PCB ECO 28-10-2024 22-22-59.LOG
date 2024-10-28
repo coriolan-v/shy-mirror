@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=VIN Pin=J?-1
+Removed Pin From Net: NetName=GND Pin=J?-2
+Removed Pin From Net: NetName=SDA Pin=J?-3
+Removed Pin From Net: NetName=SCL Pin=J?-4
+Removed Pin From Net: NetName=XSHT Pin=J?-6
+Added Pin To Net: NetName=XSHT Pin=J?-1
+Added Pin To Net: NetName=SCL Pin=J?-3
+Added Pin To Net: NetName=SDA Pin=J?-4
+Added Pin To Net: NetName=GND Pin=J?-5
+Added Pin To Net: NetName=VIN Pin=J?-6
+Added Member To Class: ClassName=shy-mirror-sensor-rev Member=Component J? SM06B-SRSS-TB__LF__SN_

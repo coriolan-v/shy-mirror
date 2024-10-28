@@ -1,0 +1,5 @@
+Added Pin To Net: NetName=INT Pin=J?-2
+Added Pin To Net: NetName=INT Pin=J?-5
+Added Net: Name=INT
+Added Member To Class: ClassName=shy-mirror-sensor-rev Member=Component J? SM06B-SRSS-TB__LF__SN_
+Added Room: Name=shy-mirror-sensor-rev

@@ -1,0 +1,16 @@
+Added Component: Designator=J?(SHDR2W102P0X500_1X2_1200X835X1230P)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "796642-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/796642-2/te-connectivity?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-773958-1&DocType=Data%20Sheet&DocLang=English&PartCntxt=796642-2&DocFormat=pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "12.3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "796642-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "571-796642-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/796642-2?qs=QSmEGMYP8RQwet%252Bjzuv6gg%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=24V Pin=J?-1
+Added Pin To Net: NetName=GND Pin=J?-2
+Added Net: Name=+5
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component IC? 3403
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component J? 796642-2
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component P? 61300811121
+Added Member To Class: ClassName=Shy-Mirror-revA Member=Component R? CPF0402B20R5E1
