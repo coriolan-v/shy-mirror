@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Shy-Mirror-master-revB.PcbDoc   29/10/2024  21:55:01
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Shy-Mirror-master-revB.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      10mil (0.254mm)                                           Round             8         PTH        4.14inch (105.24mm)
+T2      12mil (0.305mm)                                           Round             38        PTH        10.07inch (255.86mm)
+T3      43mil (1.1mm)                                             Round             16        PTH        2.44inch (62.10mm)
+T4      44mil (1.11mm)                                            Round             36        PTH        6.06inch (153.96mm)
+T5      47mil (1.2mm)                                             Round             2         PTH        0.20inch (5.00mm)
+T6      126mil (3.2mm)                                            Round             4         PTH        5.15inch (130.86mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              104
+
+Total Processing Time (hh:mm:ss) : 00:00:01

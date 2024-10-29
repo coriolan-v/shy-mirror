@@ -1,0 +1,8 @@
+Added Pin To Net: NetName=DIR Pin=IC?-12
+Added Pin To Net: NetName=STEP Pin=IC?-13
+Added Member To Class: ClassName=Shy-Mirror-master-revB Member=Component C? 04026W105KAT2A
+Added Member To Class: ClassName=Shy-Mirror-master-revB Member=Component C? 04025A240GAT2A
+Added Member To Class: ClassName=Shy-Mirror-master-revB Member=Component C? 04026W105KAT2A
+Added Member To Class: ClassName=Shy-Mirror-master-revB Member=Component IC? LTC4311
+Added Member To Class: ClassName=Shy-Mirror-master-revB Member=Component P? 61300811121
+Added Member To Class: ClassName=Shy-Mirror-master-revB Member=Component R? CPF0402B20R5E1

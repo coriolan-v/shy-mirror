@@ -1,0 +1,10 @@
+Added Pin To Net: NetName=XSHT_1 Pin=IC?-5
+Added Pin To Net: NetName=XSHT_2 Pin=IC?-6
+Added Pin To Net: NetName=XSHT_3 Pin=IC?-7
+Added Pin To Net: NetName=XSHT_4 Pin=IC?-8
+Added Member To Class: ClassName=Shy-Mirror-master-revB Member=Component C? 04026W105KAT2A
+Added Member To Class: ClassName=Shy-Mirror-master-revB Member=Component C? 04026W105KAT2A
+Added Member To Class: ClassName=Shy-Mirror-master-revB Member=Component C? 04025A240GAT2A
+Added Member To Class: ClassName=Shy-Mirror-master-revB Member=Component IC? LTC4311
+Added Member To Class: ClassName=Shy-Mirror-master-revB Member=Component P? 61300811121
+Added Member To Class: ClassName=Shy-Mirror-master-revB Member=Component R? CPF0402B20R5E1

@@ -1,0 +1,27 @@
+Removed Pin From Net: NetName=3V3 Pin=IC?-2
+Removed Pin From Net: NetName=+5 Pin=IC?-4
+Removed Pin From Net: NetName=SDA Pin=IC?-22
+Removed Pin From Net: NetName=SCL Pin=IC?-23
+Added Component: Designator=IC?(3800)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "3800"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/3800/adafruit-industries"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://cdn-learn.adafruit.com/downloads/pdf/introducing-adafruit-itsybitsy-m4.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "4.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Adafruit"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "3800"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "485-3800"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Adafruit/3800?qs=%252BEew9%252B0nqrDEEFcTIFoyAg%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=IC?-2
+Added Pin To Net: NetName=+5 Pin=IC?-4
+Added Pin To Net: NetName=SDA Pin=IC?-22
+Added Pin To Net: NetName=XSHT_3 Pin=IC?-22
+Added Pin To Net: NetName=SCL Pin=IC?-23
+Added Pin To Net: NetName=XSHT_2 Pin=IC?-23
+Added Pin To Net: NetName=GND Pin=IC?-32
+Added Member To Class: ClassName=Shy-Mirror-master-revB Member=Component C? 04026W105KAT2A
+Added Member To Class: ClassName=Shy-Mirror-master-revB Member=Component C? 04025A240GAT2A
+Added Member To Class: ClassName=Shy-Mirror-master-revB Member=Component C? 04026W105KAT2A
+Added Member To Class: ClassName=Shy-Mirror-master-revB Member=Component IC? LTC4311
+Added Member To Class: ClassName=Shy-Mirror-master-revB Member=Component IC? 3403
+Added Member To Class: ClassName=Shy-Mirror-master-revB Member=Component P? 61300811121
+Added Member To Class: ClassName=Shy-Mirror-master-revB Member=Component R? CPF0402B20R5E1

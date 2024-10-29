@@ -1,0 +1,12 @@
+Added Pin To Net: NetName=3V3 Pin=IC?-2
+Added Pin To Net: NetName=+5 Pin=IC?-4
+Added Pin To Net: NetName=SDA Pin=IC?-22
+Added Pin To Net: NetName=SCL Pin=IC?-23
+Change Class Name : Old Net Name=Shy-Mirror-revA New Net Name=Shy-Mirror-master-revB
+Added Member To Class: ClassName=Shy-Mirror-master-revB Member=Component C? 04026W105KAT2A
+Added Member To Class: ClassName=Shy-Mirror-master-revB Member=Component C? 04026W105KAT2A
+Added Member To Class: ClassName=Shy-Mirror-master-revB Member=Component C? 04025A240GAT2A
+Added Member To Class: ClassName=Shy-Mirror-master-revB Member=Component IC? 3403
+Added Member To Class: ClassName=Shy-Mirror-master-revB Member=Component IC? 3800
+Added Member To Class: ClassName=Shy-Mirror-master-revB Member=Component P? 61300811121
+Added Member To Class: ClassName=Shy-Mirror-master-revB Member=Component R? CPF0402B20R5E1
