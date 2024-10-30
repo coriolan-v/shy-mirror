@@ -1,8 +1,8 @@
 #include <AccelStepper.h>
 
-#define stepPin 12
+#define stepPin 10
 #define directionPin 11
-#define enPin 10
+#define enPin 12
 #define HallSensor A0
 
 // 0-360 of the big cog
@@ -23,22 +23,32 @@ void setup()
   pinMode(enPin, OUTPUT);
   digitalWrite(enPin, HIGH);
   // Change these to suit your stepper if you want
-  // stepper.setMaxSpeed(3000);
-  // stepper.setAcceleration(2000);
-  // stepper.moveTo(3200);
+  
 
 
 
-  homing();
+ stepper.setMaxSpeed(3000);
+  stepper.setAcceleration(2000);
+  stepper.moveTo(10000);
+
+  //homing();
+}
+
+void testMotor()
+{
+ 
+
+  stepper.run();
 }
 
 void loop()
 {
+  testMotor();
     // If at the end of travel go to the other end
     // if (stepper.distanceToGo() == 0)
     //   stepper.moveTo(-stepper.currentPosition());
 
-    // stepper.run();
+     
 }
 
 void homing()
