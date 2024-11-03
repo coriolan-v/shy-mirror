@@ -13,10 +13,10 @@ well.
 #include <VL53L1X.h>
 
 // The number of sensors in your system.
-const uint8_t sensorCount = 3;
+const uint8_t sensorCount = 8;
 
 // The Arduino pin connected to the XSHUT pin of each sensor.
-const uint8_t xshutPins[sensorCount] = { 4, 5, 6 };
+const uint8_t xshutPins[sensorCount] = { A0, A1, A2, A3, 9, 10, 11, 12 };
 
 VL53L1X sensors[sensorCount];
 

@@ -9,9 +9,9 @@
 #include <AccelStepper.h>
 
 // Define a stepper and the pins it will use
-#define stepPin 11
-#define directionPin 10
-#define enPin 12
+#define stepPin MISO
+#define directionPin MOSI
+#define enPin 5
 AccelStepper stepper(AccelStepper::DRIVER, stepPin, directionPin);
 
 void setup()

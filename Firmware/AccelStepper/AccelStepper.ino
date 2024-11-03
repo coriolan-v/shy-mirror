@@ -1,9 +1,9 @@
 #include <AccelStepper.h>
 
-#define stepPin 10
-#define directionPin 11
-#define enPin 12
-#define HallSensor A0
+#define stepPin MISO
+#define directionPin MOSI
+#define enPin 5
+#define HallSensor SCK
 
 // 0-360 of the big cog
 int calculatedPosition = 0;
