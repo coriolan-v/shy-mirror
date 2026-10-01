@@ -2,7 +2,6 @@
 #include "Config.h"
 // Adafruit ItsyBitsy M4 Express. Serial Monitor: 115200 baud, newline.
 #include <string.h>
-#include "SensorMap.h"
 
 void printHelp();
 void handleCommands();
@@ -11,7 +10,7 @@ void setup() {
   Serial.begin(115200);
   initMotor();
   initSensors();
-  loadSensorMap();
+  printSensorOrder();
   printHelp();
   if (homeOnStartup) motorHoming();
 }
@@ -19,15 +18,15 @@ void setup() {
 void loop() {
   handleCommands();
   runMotor();
-  // I2C transactions can delay step pulses; diagnostics run separately.
-  if (motorBusy()) return;
+  // The timer services STEP pulses during sensor reads and live retargeting.
+  // Keep homing/test measurements isolated from sensor diagnostics.
+  if (motorBusy() && !motorHomed()) return;
   readSensors();
-  updateSensorMapping();
-  if (!sensorMappingActive()) detectPeopleZones();
+  detectPeopleZones();
 }
 
 void printHelp() {
-  Serial.println("Commands: map, order, cancel, sensors, motor, home, stop, calibrate, skip, help");
+  Serial.println("Commands: order, sensors, motor, home, stop, calibrate, help");
 }
 
 void handleCommands() {
@@ -41,15 +40,12 @@ void handleCommands() {
       else if (length) {
         command[length] = '\0';
         if (!strcmp(command, "help")) printHelp();
-        else if (!strcmp(command, "order")) printSensorMap();
+        else if (!strcmp(command, "order") || !strcmp(command, "map")) printSensorOrder();
         else if (!strcmp(command, "cancel") || !strcmp(command, "stop")) {
-          cancelSensorMapping();
           stopMotor();
         }
-        else if (!strcmp(command, "skip")) skipMappingPosition();
-        else if (motorBusy() || sensorMappingActive())
-          Serial.println("Test/setup running. Use cancel or stop first.");
-        else if (!strcmp(command, "map")) startSensorMapping();
+        else if (motorBusy())
+          Serial.println("Motor moving. Use stop first.");
         else if (!strcmp(command, "sensors")) testSensors();
         else if (!strcmp(command, "motor")) testMotor();
         else if (!strcmp(command, "home")) motorHoming();

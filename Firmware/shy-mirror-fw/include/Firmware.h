@@ -15,16 +15,12 @@ void initSensors();
 void readSensors();
 void testSensors();
 void detectPeopleZones();
-void loadSensorMap();
-void printSensorMap();
-bool sensorMappingActive();
-void startSensorMapping();
-void cancelSensorMapping();
-void updateSensorMapping();
+void printSensorOrder();
 
 
 
 bool motorHomed();
 void calibrateMotor();
 void moveOppositePosition(uint8_t position, uint16_t distanceMm);
-void skipMappingPosition();
+
+void updatePersonPresence(bool detected);
